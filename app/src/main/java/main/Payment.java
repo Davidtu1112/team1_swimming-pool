@@ -23,6 +23,9 @@ public class Payment {
             case "週日":
                 money = weekendCharge;
                 break;
+			default:
+				error();
+				break;
         }
 
         totalCharge = money * discount.getDiscount();
