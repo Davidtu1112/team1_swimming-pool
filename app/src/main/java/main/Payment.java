@@ -24,7 +24,6 @@ public class Payment {
                 money = weekendCharge;
                 break;
 			default:
-				error();
 				break;
         }
 

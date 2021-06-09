@@ -47,7 +47,6 @@ public class InputNormalization {
                 }
                 break;
 			default:
-				error();
 				break;
         }
     }
